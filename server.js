@@ -1,10 +1,14 @@
+require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const request = require('request');
 const app = express();
-var port = process.env.PORT || 8000;
+var port = process.env.PORT || 5050;
 
-const apiKey = '41264f7eab00cbfa89eb61ebc26f703a';
+
+
+
+const apiKey = process.env.apiKey;
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -38,5 +42,5 @@ app.post('/', function (req, res) {
 });
 
 app.listen(port, function () {
-    console.log('Example app listening on port' + port);
+    console.log('Example app listening on port ' + port);
 });

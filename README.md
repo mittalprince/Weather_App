@@ -1,4 +1,4 @@
-# simple-nodejs-weather-app
+# Simple-Nodejs-Weather-app
 Simple Node.js Command Line Weather Application
 
 * Check out the **[Live Demo](https://fathomless-hamlet-64169.herokuapp.com/)**

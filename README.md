@@ -7,4 +7,6 @@ Simple Node.js Command Line Weather Application
 node server.js
 // Now open your browser and visit: localhost:3000
 
+// Now open your browser and visit: localhost:3000
+
 
